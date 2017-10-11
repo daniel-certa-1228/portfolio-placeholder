@@ -1,0 +1,86 @@
+/***************************
+ELEMENT STYLES
+***************************/
+
+body {
+  color: #0f6;
+  background-color: #282828;
+  font-family: 'VT323', monospace;
+  font-size: 1.25rem;
+}
+
+h2 {
+  margin: .5em 10px;
+}
+p {
+  margin-left: 10px;
+}
+
+a, a:visited {
+  color: #0f6;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+/***************************
+ID STYLES
+***************************/
+
+#links-1 {
+  list-style: none;
+}
+
+/***************************
+CLASS STYLES
+***************************/
+
+.list-style {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+/***************************
+    Animation
+***************************/
+
+.square {
+  animation: cursor 1s step-end infinite;
+  display: inline-block;
+  background-color: #0f6;
+  margin-left: 3px;
+}
+
+@keyframes cursor {
+  from, to {
+    color: transparent;
+    background-color: transparent;
+  }
+  50% {
+    color: #0f6;
+    background-color: #0f6;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
