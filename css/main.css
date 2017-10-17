@@ -25,6 +25,10 @@ a:hover {
   color: #aaa;
 }
 
+li {
+  margin-bottom: 5px;
+}
+
 /***************************
 ID STYLES
 ***************************/
